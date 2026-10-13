@@ -1,0 +1,44 @@
+[
+  {
+    "case_id": "INPUT-001",
+    "name": "空描述",
+    "kind": "record",
+    "overrides": {
+      "description": ""
+    },
+    "expected": "拒绝：缺少描述"
+  },
+  {
+    "case_id": "INPUT-002",
+    "name": "缺少事件ID",
+    "kind": "record",
+    "overrides": {
+      "event_id": ""
+    },
+    "expected": "拒绝：缺少事件 ID"
+  },
+  {
+    "case_id": "INPUT-003",
+    "name": "缺少必要列",
+    "kind": "schema",
+    "remove_column": "reference_location",
+    "expected": "拒绝：缺少字段"
+  },
+  {
+    "case_id": "INPUT-004",
+    "name": "实体数组格式错误",
+    "kind": "record",
+    "overrides": {
+      "reference_person": "[\"林沐\",]"
+    },
+    "expected": "拒绝：实体 JSON 无效"
+  },
+  {
+    "case_id": "INPUT-005",
+    "name": "描述超长",
+    "kind": "generated_record",
+    "description_character": "甲",
+    "description_repeat": 20001,
+    "expected": "拒绝：文本过长"
+  }
+]

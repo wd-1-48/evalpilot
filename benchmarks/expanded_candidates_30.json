@@ -1,0 +1,1172 @@
+{
+  "version": "expanded-development-30-v1",
+  "status": "candidate_not_human_approved",
+  "notes": "公开合成开发集，主标签和关联均为候选。未覆盖全部业务分布；不是独立人工金标准。",
+  "cases": [
+    {
+      "event": {
+        "event_id": "EXP-001",
+        "description": "许禾和陈舟共同到场。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "许禾和"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "许禾"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "许禾和",
+            "reference_entity": "许禾"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-002",
+        "description": "发言人是林澈女士。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林澈女士"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林澈"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "林澈女士",
+            "reference_entity": "林澈"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-003",
+        "description": "主持人周宁：欢迎各位。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "主持人周宁"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "周宁"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "主持人周宁",
+            "reference_entity": "周宁"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-004",
+        "description": "本次由星帆物流有限公司承办。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "星帆物流"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "星帆物流有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "星帆物流",
+            "reference_entity": "星帆物流有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-005",
+        "description": "合同主体为晴川咨询有限公司南城分公司。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "晴川咨询有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "晴川咨询有限公司南城分公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "晴川咨询有限公司",
+            "reference_entity": "晴川咨询有限公司南城分公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-006",
+        "description": "参展商为蓝汀设备股份有限公司。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "蓝汀设备股份"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "蓝汀设备股份有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "蓝汀设备股份",
+            "reference_entity": "蓝汀设备股份有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-007",
+        "description": "请到青岚市白石区枫林路8号领取材料。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "青岚市"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "青岚市白石区枫林路8号"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "青岚市",
+            "reference_entity": "青岚市白石区枫林路8号"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-008",
+        "description": "会议地点为星河展馆二层东厅。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "星河展馆"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "星河展馆二层东厅"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "星河展馆",
+            "reference_entity": "星河展馆二层东厅"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-009",
+        "description": "寄送地址为临溪市北岸区。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "北岸区"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "临溪市北岸区"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "北岸区",
+            "reference_entity": "临溪市北岸区"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-010",
+        "description": "集合地点：晨光公园南门。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "晨光公园"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "晨光公园南门"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "晨光公园",
+            "reference_entity": "晨光公园南门"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-011",
+        "description": "工作人员姓名登记为顾棠。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "顾糖"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "顾棠"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "内容错误"
+        ],
+        "links": [
+          {
+            "label": "内容错误",
+            "predicted_entity": "顾糖",
+            "reference_entity": "顾棠"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-012",
+        "description": "访客姓名是沈沐。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "沈木"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "沈沐"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "内容错误"
+        ],
+        "links": [
+          {
+            "label": "内容错误",
+            "predicted_entity": "沈木",
+            "reference_entity": "沈沐"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-013",
+        "description": "企业登记名称为白禾科技有限公司。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "白禾科枝有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "白禾科技有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "内容错误"
+        ],
+        "links": [
+          {
+            "label": "内容错误",
+            "predicted_entity": "白禾科枝有限公司",
+            "reference_entity": "白禾科技有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-014",
+        "description": "签约单位为云帆贸易有限公司。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "云帆贸昜有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "云帆贸易有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "内容错误"
+        ],
+        "links": [
+          {
+            "label": "内容错误",
+            "predicted_entity": "云帆贸昜有限公司",
+            "reference_entity": "云帆贸易有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-015",
+        "description": "活动地址为松林路18号。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "松林路81号"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "松林路18号"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "内容错误"
+        ],
+        "links": [
+          {
+            "label": "内容错误",
+            "predicted_entity": "松林路81号",
+            "reference_entity": "松林路18号"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-016",
+        "description": "晨页科技有限公司（简称晨页科技）发布了公告。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "晨页科技"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "晨页科技有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "允许的表达差异"
+        ],
+        "links": [
+          {
+            "label": "允许的表达差异",
+            "predicted_entity": "晨页科技",
+            "reference_entity": "晨页科技有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-017",
+        "description": "云杉文化有限公司，以下简称云杉文化，负责承办。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "云杉文化"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "云杉文化有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "允许的表达差异"
+        ],
+        "links": [
+          {
+            "label": "允许的表达差异",
+            "predicted_entity": "云杉文化",
+            "reference_entity": "云杉文化有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-018",
+        "description": "银湾国际会展中心（简称银湾中心）今天开放。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "银湾中心"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "银湾国际会展中心"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "允许的表达差异"
+        ],
+        "links": [
+          {
+            "label": "允许的表达差异",
+            "predicted_entity": "银湾中心",
+            "reference_entity": "银湾国际会展中心"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-019",
+        "description": "作者本名林远，又称林川。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林川"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林远"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "允许的表达差异"
+        ],
+        "links": [
+          {
+            "label": "允许的表达差异",
+            "predicted_entity": "林川",
+            "reference_entity": "林远"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-020",
+        "description": "青桥服务中心的全称为青桥企业服务中心。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "青桥服务中心"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "青桥企业服务中心"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "允许的表达差异"
+        ],
+        "links": [
+          {
+            "label": "允许的表达差异",
+            "predicted_entity": "青桥服务中心",
+            "reference_entity": "青桥企业服务中心"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-021",
+        "description": "苏禾与杜宁签到。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "陆遥",
+            "杜宁"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "苏禾",
+            "杜宁"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏"
+        ],
+        "links": [
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "苏禾"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "陆遥",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-022",
+        "description": "名单只有程澈和尤宁两人。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "尤宁",
+            "崔静",
+            "杨策"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "程澈",
+            "尤宁"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏"
+        ],
+        "links": [
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "程澈"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "崔静",
+            "reference_entity": null
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "杨策",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-023",
+        "description": "参与企业为石桥设计有限公司与苇岸工程有限公司。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "陌山贸易有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "石桥设计有限公司",
+            "苇岸工程有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏"
+        ],
+        "links": [
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "石桥设计有限公司"
+          },
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "苇岸工程有限公司"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "陌山贸易有限公司",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-024",
+        "description": "行程依次到达叶山市、青浦市。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "叶山市",
+            "枫泽市"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "叶山市",
+            "青浦市"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏"
+        ],
+        "links": [
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "青浦市"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "枫泽市",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-025",
+        "description": "合影中从左到右是林澈、夏宁、顾棠。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林澈",
+            "周禾"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林澈",
+            "夏宁",
+            "顾棠"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏"
+        ],
+        "links": [
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "夏宁"
+          },
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "顾棠"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "周禾",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-026",
+        "description": "林澈和夏宁拜访顾棠。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林澈和",
+            "夏宁",
+            "陆远"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林澈",
+            "夏宁",
+            "顾棠"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏",
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "林澈和",
+            "reference_entity": "林澈"
+          },
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "顾棠"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "陆远",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-027",
+        "description": "晨页科技有限公司（简称晨页科技）与白禾设备有限公司参展。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "晨页科技",
+            "白禾设各有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "晨页科技有限公司",
+            "白禾设备有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "允许的表达差异",
+          "内容错误"
+        ],
+        "links": [
+          {
+            "label": "允许的表达差异",
+            "predicted_entity": "晨页科技",
+            "reference_entity": "晨页科技有限公司"
+          },
+          {
+            "label": "内容错误",
+            "predicted_entity": "白禾设各有限公司",
+            "reference_entity": "白禾设备有限公司"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-028",
+        "description": "先到柳溪市南岸区，再到银湖公园东门。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [],
+          "location": [
+            "柳溪市",
+            "银湖公园"
+          ]
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "柳溪市南岸区",
+            "银湖公园东门"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "柳溪市",
+            "reference_entity": "柳溪市南岸区"
+          },
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "银湖公园",
+            "reference_entity": "银湖公园东门"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-029",
+        "description": "紫禾软件有限公司东城分公司与松石设计有限公司联合承办。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "紫禾软件有限公司",
+            "海角贸易有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "紫禾软件有限公司东城分公司",
+            "松石设计有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "primary_tags": [
+          "多识别",
+          "实体遗漏",
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "紫禾软件有限公司",
+            "reference_entity": "紫禾软件有限公司东城分公司"
+          },
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "松石设计有限公司"
+          },
+          {
+            "label": "多识别",
+            "predicted_entity": "海角贸易有限公司",
+            "reference_entity": null
+          }
+        ]
+      },
+      "case_approval": "pending"
+    },
+    {
+      "event": {
+        "event_id": "EXP-030",
+        "description": "嘉宾为周宁先生、夏禾女士及顾棠女士。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "周宁先生",
+            "夏禾女士"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "周宁",
+            "夏禾",
+            "顾棠"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "primary_tags": [
+          "实体遗漏",
+          "边界／完整性错误"
+        ],
+        "links": [
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "周宁先生",
+            "reference_entity": "周宁"
+          },
+          {
+            "label": "边界／完整性错误",
+            "predicted_entity": "夏禾女士",
+            "reference_entity": "夏禾"
+          },
+          {
+            "label": "实体遗漏",
+            "predicted_entity": null,
+            "reference_entity": "顾棠"
+          }
+        ]
+      },
+      "case_approval": "pending"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "version": "candidate-v1",
+  "status": "candidate_not_human_approved",
+  "notes": "公开合成开发样本；不是独立测试集。null等级表示该项口径尚未确定，不评分。需人工独立确认，禁止以本文件宣称人工验证准确率。",
+  "cases": [
+    {
+      "event": {
+        "event_id": "BENCH-01",
+        "description": "林舟到场。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林舟"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林舟"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "match_level": "exact",
+        "primary_tags": [],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-02",
+        "description": "林舟和夏宁到场。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林舟"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林舟",
+            "夏宁"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "match_level": "partial",
+        "primary_tags": [
+          "实体遗漏"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-03",
+        "description": "林舟到场。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林舟",
+            "陆遥"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林舟"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "match_level": "partial",
+        "primary_tags": [
+          "多识别"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-04",
+        "description": "林舟和夏宁到场。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "林舟和",
+            "夏宁"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林舟",
+            "夏宁"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "match_level": "partial",
+        "primary_tags": [
+          "边界／完整性错误"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-05",
+        "description": "主办方为星禾科技有限公司。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "星禾科枝有限公司"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "星禾科技有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "match_level": null,
+        "primary_tags": [
+          "内容错误"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-06",
+        "description": "星禾科技有限公司（简称星禾）参与。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "星禾"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [
+            "星禾科技有限公司"
+          ],
+          "location": []
+        }
+      },
+      "field": "company",
+      "expected": {
+        "match_level": "exact",
+        "primary_tags": [
+          "允许的表达差异"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-07",
+        "description": "活动在青页展馆举办。",
+        "unknown": [],
+        "predicted": {
+          "person": [],
+          "company": [
+            "青页展馆"
+          ],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": [
+            "青页展馆"
+          ]
+        }
+      },
+      "field": "location",
+      "expected": {
+        "match_level": "mismatch",
+        "primary_tags": [
+          "类型错误"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-08",
+        "description": "林舟到场。",
+        "unknown": [],
+        "predicted": {
+          "person": [
+            "陆遥"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [
+            "林舟"
+          ],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "match_level": "mismatch",
+        "primary_tags": [
+          "实体遗漏",
+          "多识别"
+        ],
+        "requires_review": false
+      }
+    },
+    {
+      "event": {
+        "event_id": "BENCH-09",
+        "description": "来宾到场。",
+        "unknown": [
+          "person"
+        ],
+        "predicted": {
+          "person": [
+            "林舟"
+          ],
+          "company": [],
+          "location": []
+        },
+        "reference": {
+          "person": [],
+          "company": [],
+          "location": []
+        }
+      },
+      "field": "person",
+      "expected": {
+        "match_level": null,
+        "primary_tags": [],
+        "requires_review": true
+      }
+    }
+  ]
+}

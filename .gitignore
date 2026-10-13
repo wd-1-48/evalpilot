@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+data/
+private/
+*.sqlite*
+inspect_inputs.py
+node_modules/
+
+# Local credentials, exports and experiment artifacts
+.env.*
+!.env.example
+outputs/
+tmp/
+benchmarks/ab_runs/
+benchmarks/latest_offline.json
+docs/historical-human-baseline.md
+docs/product.md
+docs/deepseek-setup.md
+
+# Publish validation tools, exclude one-off local migration scripts
+scripts/*
+!scripts/benchmark.py
+!scripts/check_judge_benchmark.py
+!scripts/run_prompt_ab.py
+!scripts/verify_importable_simulation.py
+!scripts/run_expanded_ab.py

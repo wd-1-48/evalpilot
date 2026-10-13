@@ -1,0 +1,131 @@
+{
+  "scope": "20 个手写合成回归用例，仅验证当前规则，不代表业务分布。简称等标签依赖假定上下文，不能用于 LLM 基准。",
+  "cases": 20,
+  "string_baseline_accuracy": 0.35,
+  "rule_coverage": 0.65,
+  "rule_accuracy_on_resolved": 1.0,
+  "pending": 7,
+  "llm_and_rag_ablation": "not_run: API credentials and independently annotated contextual holdout required",
+  "details": [
+    {
+      "case": "same",
+      "gold": "exact",
+      "baseline": "exact",
+      "rule": "exact"
+    },
+    {
+      "case": "empty",
+      "gold": "exact",
+      "baseline": "exact",
+      "rule": "exact"
+    },
+    {
+      "case": "order",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "exact"
+    },
+    {
+      "case": "spaces",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "exact"
+    },
+    {
+      "case": "width",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "exact"
+    },
+    {
+      "case": "duplicate",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "exact"
+    },
+    {
+      "case": "delimiter",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "exact"
+    },
+    {
+      "case": "miss",
+      "gold": "mismatch",
+      "baseline": "mismatch",
+      "rule": "mismatch"
+    },
+    {
+      "case": "extra",
+      "gold": "mismatch",
+      "baseline": "mismatch",
+      "rule": "mismatch"
+    },
+    {
+      "case": "subset",
+      "gold": "partial",
+      "baseline": "mismatch",
+      "rule": "partial"
+    },
+    {
+      "case": "superset",
+      "gold": "partial",
+      "baseline": "mismatch",
+      "rule": "partial"
+    },
+    {
+      "case": "overlap",
+      "gold": "partial",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "wrong",
+      "gold": "mismatch",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "company_alias",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "location",
+      "gold": "partial",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "ocr",
+      "gold": "mismatch",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "title",
+      "gold": "partial",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "generic",
+      "gold": "partial",
+      "baseline": "mismatch",
+      "rule": "abstain"
+    },
+    {
+      "case": "null",
+      "gold": "exact",
+      "baseline": "mismatch",
+      "rule": "exact"
+    },
+    {
+      "case": "multi_missing",
+      "gold": "mismatch",
+      "baseline": "mismatch",
+      "rule": "mismatch"
+    }
+  ]
+}
