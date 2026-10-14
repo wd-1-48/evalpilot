@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 .env
 data/
+!examples/data/
+!examples/data/city-calls-200.xlsx
 private/
 *.sqlite*
 inspect_inputs.py
