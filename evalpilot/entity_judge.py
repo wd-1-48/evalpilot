@@ -82,6 +82,9 @@ def diagnose(event, field, analysis, enabled=False, variant="A"):
              'messages':[{'role':'system','content':prompt},{'role':'user','content':json.dumps({
                  'description':event['description'],'field':field,'predicted':event['predicted'],
                  'reference':event['reference'],'missing':analysis['missing'],'extra':analysis['extra']},ensure_ascii=False)}]}
+    if model.lower().startswith('deepseek-'):
+        payload['thinking']={'type':'disabled'}
+        analysis['thinking_mode']='disabled'
     analysis['diagnosis_attempts']=1
     try:
         with httpx.Client(timeout=60,follow_redirects=False) as client:
